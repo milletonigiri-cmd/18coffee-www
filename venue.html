@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>場地租借｜18 Coffee 療癒咖啡館</title>
+<meta name="description" content="華美街 B1 安靜空間，可包場辦小聚與課程，線上查詢空檔直接預約。">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="18 Coffee 療癒咖啡館">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:title" content="場地租借｜18 Coffee 療癒咖啡館">
+<meta property="og:description" content="華美街 B1 安靜空間，可包場辦小聚與課程，線上查詢空檔直接預約。">
+<meta property="og:url" content="https://www.18coffee.tw/venue">
+<meta property="og:image" content="https://www.18coffee.tw/og-venue.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#FFFBF5">
+<style>
+html,body{margin:0;height:100%;background:#F5EDE3}
+.ld{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;font:16px -apple-system,"PingFang TC","Noto Sans TC",sans-serif;color:#7A6150}
+iframe{position:fixed;inset:0;width:100%;height:100%;border:0}
+</style>
+</head>
+<body>
+<div class="ld">18 Coffee 載入中…</div>
+<iframe id="app" title="18 Coffee 療癒咖啡館" allow="web-share; clipboard-write; fullscreen"></iframe>
+<script>
+/* 18 Coffee 外框頁：把網址上的分頁與參數（分享代號、登入碼）轉給 Apps Script 網站，自有網域顯示、沒有 Google 提示橫幅 */
+(function () {
+  var EXEC = 'https://script.google.com/macros/s/AKfycbwA8NR-gMpWQfjRnw9BbLWUyhiQqHfztBcmWNEcRsAfQ8T5FY7lIBgv0KBJswatvRa7/exec';
+  var OK = { home:1, shop:1, groupbuy:1, events:1, venue:1, exhibition:1, member:1, cart:1, lookup:1, admin:1 };
+  var p = (location.pathname.split('/').filter(Boolean).pop() || '').replace(/\.html$/, '');
+  if (p === 'invite' || p === 'index' || !p) p = 'home';
+  var q = new URLSearchParams(location.search);
+  if (!q.get('page') && OK[p]) q.set('page', p);
+  document.getElementById('app').src = EXEC + '?' + q.toString();
+})();
+</script>
+</body>
+</html>
