@@ -29,12 +29,13 @@ main{max-width:760px;margin:0 auto;padding:28px 20px 40px}
 h1{font:700 30px/1.4 "Noto Serif TC",serif;margin:0 0 14px}
 h2{font-size:19px;line-height:1.6;margin:28px 0 6px;padding-left:12px;border-left:4px solid #C9A063}
 p{margin:0 0 12px}.lead{color:#5A4334}
+.pics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:18px 0 6px}.pics img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:12px;background:#EADFD0}.pics.one{grid-template-columns:1fr}.pics.one img,.pics.tall img{aspect-ratio:auto}
 .cta{display:flex;flex-wrap:wrap;gap:12px;margin:32px 0 8px}
 .cta a{display:inline-block;padding:12px 22px;border-radius:999px;background:#3C2016;color:#FFFBF5;text-decoration:none;white-space:nowrap}
 .cta a+a{background:transparent;color:#3C2016;border:1px solid #3C2016}
 footer{border-top:1px solid #E6D8C6;color:#7A6150;font-size:15px}
 footer .bar{padding:20px}
-@media(max-width:640px){body{font-size:16px}h1{font-size:25px}nav{grid-template-columns:repeat(4,auto);justify-content:space-between;font-size:14px}.cta a{flex:1 1 100%;text-align:center}}
+@media(max-width:640px){.pics.tall{grid-template-columns:1fr}body{font-size:16px}h1{font-size:25px}nav{grid-template-columns:repeat(4,auto);justify-content:space-between;font-size:14px}.cta a{flex:1 1 100%;text-align:center}}
 </style>
 </head>
 <body>
@@ -45,8 +46,10 @@ footer .bar{padding:20px}
 <p class="lead">不想一開始就承租整間店面，可以先從共享空間試水溫。台中市西區華美街18號 1F 提供騎樓攤位與輕食共享廚房兩種空間，依時段彈性租用。</p>
 <h2>騎樓攤位有哪些租法？</h2>
 <p>時租 NT$150（3 小時起）、半日 NT$500（4 小時）、日租 NT$800（8 小時）、週租 NT$2,500；固定攤位月租 NT$7,500～8,000。連假與特殊活動另行報價。</p>
+<div class="pics"><img src="/img/guide-kitchen-3.jpg" width="1200" height="782" alt="華美街18號 1F 騎樓攤位位置正面" loading="lazy" decoding="async"><img src="/img/guide-kitchen-4.jpg" width="1200" height="873" alt="華美街18號 1F 騎樓攤位位置側面" loading="lazy" decoding="async"></div>
 <h2>共享廚房有哪些租法？</h2>
 <p>時租 NT$350（3 小時起）、半日 NT$1,200（4 小時）、單日 NT$1,800（6 小時）；固定時段月租 NT$4,000 起（每週一天、每次 3 小時，共 4 次）。</p>
+<div class="pics"><img src="/img/guide-kitchen-1.jpg" width="1200" height="900" alt="輕食共享廚房的工作檯與設備" loading="lazy" decoding="async"><img src="/img/guide-kitchen-2.jpg" width="1200" height="900" alt="輕食共享廚房的冷藏冰箱與工作檯" loading="lazy" decoding="async"></div>
 <h2>廚房什麼時段可以用？有什麼限制？</h2>
 <p>共享廚房開放的是店內非營業時段，適合輕食、烘焙與備料；不可進行重油煙或油炸料理。</p>
 <h2>怎麼申請？</h2>

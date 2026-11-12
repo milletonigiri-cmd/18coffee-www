@@ -29,12 +29,13 @@ main{max-width:760px;margin:0 auto;padding:28px 20px 40px}
 h1{font:700 30px/1.4 "Noto Serif TC",serif;margin:0 0 14px}
 h2{font-size:19px;line-height:1.6;margin:28px 0 6px;padding-left:12px;border-left:4px solid #C9A063}
 p{margin:0 0 12px}.lead{color:#5A4334}
+.pics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:18px 0 6px}.pics img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:12px;background:#EADFD0}.pics.one{grid-template-columns:1fr}.pics.one img,.pics.tall img{aspect-ratio:auto}
 .cta{display:flex;flex-wrap:wrap;gap:12px;margin:32px 0 8px}
 .cta a{display:inline-block;padding:12px 22px;border-radius:999px;background:#3C2016;color:#FFFBF5;text-decoration:none;white-space:nowrap}
 .cta a+a{background:transparent;color:#3C2016;border:1px solid #3C2016}
 footer{border-top:1px solid #E6D8C6;color:#7A6150;font-size:15px}
 footer .bar{padding:20px}
-@media(max-width:640px){body{font-size:16px}h1{font-size:25px}nav{grid-template-columns:repeat(4,auto);justify-content:space-between;font-size:14px}.cta a{flex:1 1 100%;text-align:center}}
+@media(max-width:640px){.pics.tall{grid-template-columns:1fr}body{font-size:16px}h1{font-size:25px}nav{grid-template-columns:repeat(4,auto);justify-content:space-between;font-size:14px}.cta a{flex:1 1 100%;text-align:center}}
 </style>
 </head>
 <body>
@@ -43,6 +44,7 @@ footer .bar{padding:20px}
 <main>
 <h1>台中場地租借常見問題</h1>
 <p class="lead">18 Coffee 在台中市西區華美街18號 B1，是一處安靜、不被打擾的地下室空間，適合課程、講座、讀書會與小型聚會包場。以下整理大家最常問的事。</p>
+<div class="pics"><img src="/img/guide-venue-1.jpg" width="1200" height="900" alt="18 Coffee B1 場地全景，四人桌與吧檯" loading="lazy" decoding="async"><img src="/img/guide-venue-2.jpg" width="1200" height="800" alt="18 Coffee B1 場地另一側與牆面畫作" loading="lazy" decoding="async"><img src="/img/guide-venue-3.jpg" width="1200" height="900" alt="18 Coffee B1 場地的投影螢幕與座位" loading="lazy" decoding="async"><img src="/img/guide-venue-4.jpg" width="1200" height="755" alt="18 Coffee B1 吧檯與展示櫃" loading="lazy" decoding="async"></div>
 <h2>場地在哪裡？怎麼進去？</h2>
 <p>地址是台中市西區華美街18號 B1，從 1F 米立飯糰店內進入。營業時間 9:30–17:00，週一、週五公休。</p>
 <h2>有哪些租借方案？</h2>
