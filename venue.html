@@ -51,6 +51,39 @@ iframe{position:fixed;inset:0;width:100%;height:100%;border:0}
 <small>18 Coffee 載入中…</small>
 </main></div>
 <iframe id="app" title="18 Coffee 療癒咖啡館" allow="web-share; clipboard-write; fullscreen"></iframe>
+<div id="iab" hidden>
+<div class="iabc" role="dialog" aria-label="請改用瀏覽器開啟">
+<button type="button" id="iabx" aria-label="關閉">×</button>
+<b>頁面一直載入中嗎？</b>
+<p><span class="nw">IG／FB 內建瀏覽器</span><span class="nw">可能無法顯示本站，</span><span class="nw">請改用 Safari 開啟。</span></p>
+<a id="iabgo" class="iabb">用 Safari 開啟</a>
+<p class="iabs"><span class="nw">按鈕沒反應時：</span><span class="nw">點右上角「⋯」</span><span class="nw">→「在外部瀏覽器開啟」</span></p>
+<a class="iabb iabg" href="https://lin.ee/AE20MXr">加官方 LINE 詢問</a>
+</div>
+</div>
+<style>
+#iab{position:fixed;inset:0;z-index:5;display:flex;align-items:flex-end;justify-content:center;padding:16px;background:rgba(60,32,22,.28);font:16px/1.7 -apple-system,"PingFang TC","Noto Sans TC",sans-serif;color:#3C2016}
+#iab[hidden]{display:none}
+.iabc{position:relative;width:100%;max-width:420px;box-sizing:border-box;padding:22px 20px 18px;border-radius:24px;background:#FFFBF5;text-align:center;box-shadow:0 10px 30px rgba(60,32,22,.18)}
+.iabc b{display:block;font-size:19px;margin:0 0 6px}
+.iabc p{margin:0 0 12px;color:#6B5444}
+.iabc .nw{display:inline-block;white-space:nowrap}
+.iabc .iabs{font-size:14px;margin:10px 0 12px}
+.iabb{display:block;padding:12px 16px;border-radius:999px;background:#3C2016;color:#FFFBF5;text-decoration:none;font-weight:700}
+.iabb.iabg{background:none;color:#3C2016;border:1.5px solid #3C2016}
+#iabx{position:absolute;top:8px;right:10px;width:36px;height:36px;border:0;background:none;font-size:24px;line-height:1;color:#6B5444}
+</style>
+<script>
+/* IG／FB 內建瀏覽器（iPhone）開不出 Apps Script 內嵌頁：3 秒後提示改用 Safari（11/14） */
+(function () {
+  var ua = navigator.userAgent || '';
+  if (!/iPhone|iPad|iPod/.test(ua) || !/Instagram|FBAN|FBAV|FB_IAB/.test(ua)) return;
+  var box = document.getElementById('iab');
+  document.getElementById('iabgo').href = 'x-safari-' + location.href;
+  document.getElementById('iabx').onclick = function () { box.hidden = true; };
+  setTimeout(function () { box.hidden = false; }, 3000);
+})();
+</script>
 <script>
 /* 18 Coffee 外框頁：把網址上的分頁與參數（分享代號、登入碼）轉給 Apps Script 網站，自有網域顯示、沒有 Google 提示橫幅 */
 (function () {
