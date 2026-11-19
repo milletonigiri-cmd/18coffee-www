@@ -1,0 +1,53 @@
+{
+ "updated": "2026-11-19T19:40:13+08:00",
+ "today": "2026-11-19",
+ "title": "地下一樓的療癒時光",
+ "sub": "水晶選物、課程小聚、藝術展覽與可包場的 B1 空間；都在台中市西區華美街 18 號。",
+ "slide": {
+  "img": "https://lh3.googleusercontent.com/d/1K8qNgfgnT6u4oF-1RExs7jrsedcIwPFW=w1200",
+  "alt": "Annannis 景安畫展，展期至 12/4"
+ },
+ "sessions": [
+  {
+   "date": "2026-11-19",
+   "time": "13:00",
+   "end": "15:00",
+   "left": 6,
+   "course": "水晶手串設計體驗課",
+   "url": "/events?course=C002"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "13:00",
+   "end": "15:00",
+   "left": 2,
+   "course": "水晶手串設計體驗課",
+   "url": "/events?course=C002"
+  },
+  {
+   "date": "2026-11-28",
+   "time": "13:00",
+   "end": "15:00",
+   "left": 6,
+   "course": "水晶手串設計體驗課",
+   "url": "/events?course=C002"
+  },
+  {
+   "date": "2026-11-29",
+   "time": "13:00",
+   "end": "15:00",
+   "left": 6,
+   "course": "水晶手串設計體驗課",
+   "url": "/events?course=C002"
+  },
+  {
+   "date": "2026-12-05",
+   "time": "10:00",
+   "end": "13:00",
+   "left": 8,
+   "course": "聖誕花圈手作課程",
+   "url": "/events?course=C007"
+  }
+ ],
+ "groupbuys": []
+}

@@ -1,0 +1,141 @@
+{
+ "updated": "2026-11-19T19:40:13+08:00",
+ "today": "2026-11-19",
+ "courses": [
+  {
+   "id": "C002",
+   "name": "水晶手串設計體驗課",
+   "kind": "課程",
+   "intro": "小班制，用直覺挑選水晶，完成一條屬於自己的手串",
+   "hours": 2,
+   "maxPeople": 6,
+   "price": "大人 NT$1,580｜小孩(12歲以下) NT$1,380",
+   "img": "https://lh3.googleusercontent.com/d/1COw3T1n_IF1eCbII6nnIsFmxxuOD3MxD=w640",
+   "url": "/events?course=C002",
+   "sessions": [
+    {
+     "date": "2026-11-19",
+     "time": "13:00",
+     "end": "15:00",
+     "left": 6
+    },
+    {
+     "date": "2026-11-21",
+     "time": "13:00",
+     "end": "15:00",
+     "left": 2
+    },
+    {
+     "date": "2026-11-28",
+     "time": "13:00",
+     "end": "15:00",
+     "left": 6
+    },
+    {
+     "date": "2026-11-29",
+     "time": "13:00",
+     "end": "15:00",
+     "left": 6
+    }
+   ]
+  },
+  {
+   "id": "C006",
+   "name": "天然石項鍊手作課",
+   "kind": "課程",
+   "intro": "小班制，把喜歡的色系串成專屬的天然石項鍊；從排列到收尾手把手教，零基礎也能完成",
+   "hours": 2,
+   "maxPeople": 6,
+   "price": "每人 NT$1,680",
+   "img": "https://lh3.googleusercontent.com/d/1Qdbd4iFbOaBk99fDlkUuKeQZTd9VEtmE=w640",
+   "url": "/events?course=C006",
+   "sessions": [
+    {
+     "date": "2026-12-08",
+     "time": "13:00",
+     "end": "15:00",
+     "left": 4
+    },
+    {
+     "date": "2026-12-13",
+     "time": "13:00",
+     "end": "15:00",
+     "left": 6
+    },
+    {
+     "date": "2026-12-26",
+     "time": "13:00",
+     "end": "15:00",
+     "left": 6
+    }
+   ]
+  },
+  {
+   "id": "C001",
+   "name": "水晶基礎鑑定班",
+   "kind": "課程",
+   "intro": "含 4 樣鑑定工具，認識水晶的基礎辨識方法",
+   "hours": 5,
+   "maxPeople": 10,
+   "price": "每人 NT$3,880",
+   "img": "https://lh3.googleusercontent.com/d/1m9fhjXmzE9UWe9mcXuJ5I6R9uKkxkQ2p=w640",
+   "url": "/events?course=C001",
+   "sessions": []
+  },
+  {
+   "id": "C003",
+   "name": "答案桌遊",
+   "kind": "小聚",
+   "intro": "每場 2–4 人，透過桌遊探索心裡的答案",
+   "hours": 2,
+   "maxPeople": 4,
+   "price": "每人 NT$1,200",
+   "img": "https://lh3.googleusercontent.com/d/129Deifz3NUZ4_4lwWvzwExLfgbj-d_1q=w640",
+   "url": "/events?course=C003",
+   "sessions": []
+  },
+  {
+   "id": "C004",
+   "name": "西方命盤占星解讀",
+   "kind": "1對1",
+   "intro": "預約制·一對一解讀你的西方命盤\n探索本質、看見潛能、掌握未來。",
+   "hours": 1,
+   "maxPeople": 1,
+   "price": "每人 NT$2,200",
+   "img": "https://lh3.googleusercontent.com/d/1g4Z4jiVtzO7LkYivJDj8Wu8INndLft_H=w640",
+   "url": "/events?course=C004",
+   "sessions": []
+  },
+  {
+   "id": "C005",
+   "name": "塔羅牌",
+   "kind": "1對1",
+   "intro": "預約制·一對一塔羅占卜\n陪你看見內在盲點，找到適合你的方向。\n可選 30 或 60 分鐘方案。",
+   "hours": 1,
+   "maxPeople": 1,
+   "price": "30分鐘 NT$300｜60分鐘 NT$600",
+   "img": "https://lh3.googleusercontent.com/d/10CYlk1STm_fczya_CvCEkOAUAJq5VGlc=w640",
+   "url": "/events?course=C005",
+   "sessions": []
+  },
+  {
+   "id": "C007",
+   "name": "聖誕花圈手作課程",
+   "kind": "課程",
+   "intro": "用新鮮諾貝松、扁柏與尤加利葉，親手做一個外徑約 30 公分的聖誕花圈；不需花藝基礎也能完成",
+   "hours": 3,
+   "maxPeople": 8,
+   "price": "單人報名 NT$1,380｜雙人同行(每人) NT$1,300",
+   "img": "https://lh3.googleusercontent.com/d/1ewAEFAFa0j8whNEWUglGx4ndCTQPQ1LF=w640",
+   "url": "/events?course=C007",
+   "sessions": [
+    {
+     "date": "2026-12-05",
+     "time": "10:00",
+     "end": "13:00",
+     "left": 8
+    }
+   ]
+  }
+ ]
+}
