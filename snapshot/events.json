@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-19",
- "today": "2026-11-19",
+ "updated": "2026-11-20",
+ "today": "2026-11-20",
  "courses": [
   {
    "id": "C002",
@@ -13,12 +13,6 @@
    "img": "https://lh3.googleusercontent.com/d/1COw3T1n_IF1eCbII6nnIsFmxxuOD3MxD=w640",
    "url": "/events?course=C002",
    "sessions": [
-    {
-     "date": "2026-11-19",
-     "time": "13:00",
-     "end": "15:00",
-     "left": 6
-    },
     {
      "date": "2026-11-21",
      "time": "13:00",
@@ -36,6 +30,12 @@
      "time": "13:00",
      "end": "15:00",
      "left": 6
+    },
+    {
+     "date": "2026-12-05",
+     "time": "15:00",
+     "end": "",
+     "left": 4
     }
    ]
   },
