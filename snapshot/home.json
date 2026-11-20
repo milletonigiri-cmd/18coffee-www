@@ -34,17 +34,17 @@
   },
   {
    "date": "2026-12-05",
-   "time": "10:00",
-   "end": "13:00",
-   "left": 8,
-   "course": "聖誕花圈手作課程",
-   "url": "/events?course=C007"
-  },
-  {
-   "date": "2026-12-05",
    "time": "15:00",
    "end": "",
    "left": 4,
+   "course": "水晶手串設計體驗課",
+   "url": "/events?course=C002"
+  },
+  {
+   "date": "2026-12-06",
+   "time": "13:00",
+   "end": "15:00",
+   "left": 6,
    "course": "水晶手串設計體驗課",
    "url": "/events?course=C002"
   }

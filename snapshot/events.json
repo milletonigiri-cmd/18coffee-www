@@ -117,25 +117,6 @@
    "img": "https://lh3.googleusercontent.com/d/10CYlk1STm_fczya_CvCEkOAUAJq5VGlc=w640",
    "url": "/events?course=C005",
    "sessions": []
-  },
-  {
-   "id": "C007",
-   "name": "聖誕花圈手作課程",
-   "kind": "課程",
-   "intro": "用新鮮諾貝松、扁柏與尤加利葉，親手做一個外徑約 30 公分的聖誕花圈；不需花藝基礎也能完成",
-   "hours": 3,
-   "maxPeople": 8,
-   "price": "單人報名 NT$1,380｜雙人同行(每人) NT$1,300",
-   "img": "https://lh3.googleusercontent.com/d/1ewAEFAFa0j8whNEWUglGx4ndCTQPQ1LF=w640",
-   "url": "/events?course=C007",
-   "sessions": [
-    {
-     "date": "2026-12-05",
-     "time": "10:00",
-     "end": "13:00",
-     "left": 8
-    }
-   ]
   }
  ]
 }
